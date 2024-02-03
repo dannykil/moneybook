@@ -18,9 +18,14 @@ spring:
 #    url: jdbc:mysql://localhost:3306/moneybook?serverTimezone=Asia/Seoul
 #    username: cos
 #    password: cos1234
-    url: jdbc:mysql://localhost:3306/moneybook?serverTimezone=Asia/Seoul
+    # dev
+    url: jdbc:mysql://palpage.cxmywrhxhdno.ap-northeast-2.rds.amazonaws.com:3306/moneybook?serverTimezone=Asia/Seoul
     username: root
-    password: 111111
+    password: 11111111
+    # local
+#    url: jdbc:mysql://localhost:3306/moneybook?serverTimezone=Asia/Seoul
+#    username: root
+#    password: 111111
   
   jpa:
     open-in-view: true
